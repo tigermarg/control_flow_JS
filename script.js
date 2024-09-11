@@ -41,9 +41,9 @@ let week2 = week1 * 2 //number of plants
 if(week2 > maxCapacity * .8) { 
     console.log(`Pruned`, week2 ) 
 } else if(maxCapacity * .5 < week2 && week2 < maxCapacity * .8) {
-    console.log(`Monitored`, week2) //do this 
+    console.log(`Monitored`, week2) 
 } else if(week2 < maxCapacity * .5) {  
-    console.log(`Planted`, week2) // do this
+    console.log(`Planted`, week2) 
 } 
 
 //Week 3 -- Pruned
@@ -80,7 +80,7 @@ console.log(newAreaCircle - areaCircle); // 40881.4625 sq meters
 
 // If the space remained circular, what would be the radius of this expanded garden?
 
-// console.log(newAreaCircle / (PI * x**2));
+    // console.log(newAreaCircle / (PI * x**2));
 
 
 // Part 3: Errors in Judgement -----------------------------------------------------------------------------------------------
