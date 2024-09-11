@@ -63,15 +63,7 @@ if(week3 > maxCapacity * .8) {
 // Using the logic you have already created, determine:
 
 let newWeek1 = 100 //number of plants
-let newWeek2 = newWeek1 * 2
-let newWeek3 = newWeek2 * 2
-let newWeek4 = newWeek3 * 2
-let newWeek5 = newWeek4 * 2
-let newWeek6 = newWeek5 * 2
-let newWeek7 = newWeek6 * 2
-let newWeek8 = newWeek7 * 2
-let newWeek9 = newWeek8 * 2
-let newWeek10 = newWeek9 * 2 // 51200 plants
+let newWeek10 = newWeek1 * (2**9) // 51200 plants
 let newAreaCircle = newWeek10 * .8 // new area = 40960 sq meters
 
 // The amount of additional space that would be required if the scientists were to start with 100 plants, and did not prune them for 10 weeks.
